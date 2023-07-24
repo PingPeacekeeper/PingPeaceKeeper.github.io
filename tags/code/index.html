@@ -5,7 +5,7 @@
   <meta name="generator" content="Hexo 6.3.0">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.19.0">
   <meta charset="utf-8">
-  <meta name="robots" content="none">
+  <meta name="robots" content="noindex,follow">
 
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://gcore.jsdelivr.net'>
@@ -20,13 +20,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   
-  <title>标题</title>
+  <title>标签：code - 标题</title>
 
   
     <meta name="description" content="简介">
 <meta property="og:type" content="website">
 <meta property="og:title" content="标题">
-<meta property="og:url" content="http://example.com/404.html">
+<meta property="og:url" content="http://example.com/tags/code/index.html">
 <meta property="og:site_name" content="标题">
 <meta property="og:description" content="简介">
 <meta property="og:locale" content="zh_CN">
@@ -61,14 +61,14 @@
 
 
   <div class='l_body' id='start'>
-    <aside class='l_left' layout='404'>
+    <aside class='l_left' layout=''>
     
 
   
 
 <header class="header"><div class="logo-wrap"><a class="title" href="/"><div class="main" ff="title">标题</div><div class="sub cap">副标题</div></a></div>
 
-<nav class="menu dis-select"><a class="nav-item" href="/">文章</a><a class="nav-item" href="/wiki/">项目</a><a class="nav-item" href="/about/">关于</a></nav>
+<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/wiki/">项目</a><a class="nav-item" href="/about/">关于</a></nav>
 </header>
 
 
@@ -84,36 +84,32 @@
     </aside>
     <div class='l_main list'>
       
+  
+
+<header class="header mobile-only"><div class="logo-wrap"><a class="title" href="/"><div class="main" ff="title">标题</div><div class="sub cap">副标题</div></a></div></header>
+
+
 
       
-<article class='md-text error-page'>
-  <h1><img id='error' src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/404/1c830bfcd517d.svg' alt='404'></h1>
-  <p class='what'>
-    <strong>
-      很抱歉，您访问的页面不存在
-    </strong>
-  </p>
-  <p class='why'>
-    可能是输入地址有误或该地址已被删除
-  </p>
-  <br><br>
-  <a class='button' id='back' href="/">返回主页</a>
-</article>
+
+  
 
 
-  <div class='related-wrap md-text reveal' id="comments">
-    <section class='header cmt-title cap theme'>
-      
-    </section>
-    <section class='body cmt-body giscus'>
-      
+  
 
-<svg class="loading" style="vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg>
+<div class="nav-wrap"><nav class="sub post cap"><a href="/">近期发布</a><a href="/categories">分类</a><a class="active" href="/tags">标签：code</a><a href="/archives">归档</a></nav></div>
 
-<div id="giscus" data-repo="PingPeacekeeper/blog-comment" data-repo-id="R_kgDOJ-8Qqw" data-category="Announcements" data-category-id="DIC_kwDOJ-8Qq84CYFhi" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous"></div>
+  <div class="post-list post"><a class="post-card post " href="/2023/07/24/testcode/">
+<article class="md-text"><h2 class="post-title">testcode</h2><div class="excerpt"><p>graph LR
+A(Section A) -->|option 1| B(Section A)
+B -->|option 2| C(Section C)
 
-    </section>
-  </div>
+$m \approx n$$$m &#x3D; n$$
+</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2023-07-24T20:02:28.000Z">2023-07-24</time></span></div></article>
+</a></div>
+  
+
+
 
 
 
@@ -288,34 +284,6 @@
 
 
 <!-- optional -->
-
-  <script>
-  function loadJS() {
-    const els = document.querySelectorAll("#comments #giscus");
-    if (els.length === 0) return;
-    els.forEach((el, i) => {
-      try {
-        el.innerHTML = '';
-      } catch (error) {
-        console.log(error);
-      }
-      var script = document.createElement('script');
-      script.src = 'https://giscus.app/client.js';
-      script.async = true;
-      for (let key of Object.keys(el.attributes)) {
-        let attr = el.attributes[key];
-        if (['class', 'id'].includes(attr.name) === false) {
-          script.setAttribute(attr.name, attr.value);
-        }
-      }
-      el.appendChild(script);
-    });
-  }
-  window.addEventListener('DOMContentLoaded', (event) => {
-    loadJS();
-  });
-</script>
-
 
 
 

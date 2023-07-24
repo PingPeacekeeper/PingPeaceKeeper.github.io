@@ -5180,6 +5180,15 @@ img[fancybox='true'] {
 .swiper-slide {
   cursor: zoom-in;
 }
+pre.mermaid {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.mermaid svg {
+  width: 100%;
+  display: inline-block;
+}
 .highlight {
   position: relative;
 }
